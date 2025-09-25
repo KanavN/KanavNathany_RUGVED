@@ -24,4 +24,4 @@ def pat2(number):
 
 
 num=int(input("Enter a number : "))
-pat2(num)
+pat1(num)
