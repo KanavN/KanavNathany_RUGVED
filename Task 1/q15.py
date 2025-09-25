@@ -12,7 +12,6 @@ for i in range(n):
         arr[j][i]=temp
 for r in arr:
     r.reverse()
-    print(r)
 for r in range(n):
     for c in range(n):
         print(arr[r][c],end=" ")
