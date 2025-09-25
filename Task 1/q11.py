@@ -7,7 +7,7 @@ def grade(s):
             digit+=1
         elif letter.isspace():
             word+=1
-        elif letter=='.' or letter=='?':
+        elif letter=='.' or letter=='?' or letter=='!':
             sentence+=1
     l=digit/word*100
     s=sentence/word*100
